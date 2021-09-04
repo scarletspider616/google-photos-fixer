@@ -10,7 +10,7 @@ DIR_KEY = "DIR"
 INVALID_INPUT = "Please select a valid directory/folder containing the json and jpg files.."
 
 
-class MainWindow():
+class MainWindow:
     def __init__(self, title=DEFAULT_TITLE, message=DEFAULT_MESSAGE, submit_button=DEFAULT_SUBMIT, x_size=DEFAULT_X, y_size=DEFAULT_Y, invalid_input=INVALID_INPUT):
         self._window = None
         self._title = title
